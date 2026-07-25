@@ -36,7 +36,7 @@ function BookingForm({ isOpen, closeBooking, selectedService }) {
     }, PUBLIC_KEY);
 
     const message = `New Booking!%0AService: ${formData.service}%0AName: ${formData.name}%0AMobile: ${formData.mobile}%0ALocation: ${formData.location}`;
-    window.open(`https://wa.me/919177038969?text=${message}`, '_blank');
+    window.open(`https://wa.me/919912298969?text=${message}`, '_blank');
     
     const booking = {
     id: Date.now(),
