@@ -10,7 +10,7 @@ function Hero({ openBooking}) {
             <div className="hero-content">
                 <div className="hero-left">
                     <h1>Trusted House Help <span>in Minutes</span></h1>
-                    <p>📍 Hyderabad & Secunderabad <div id="location">Hayathnagar | Pedda Amberpet | Kuntloor | Nagole | Meerpet | Vanasthalipuram | Karmanghat | Nadergul </div>  </p>
+                    <p>📍 Hyderabad & Secunderabad <div id="location">Bongloor Gate | Hayathnagar | Pedda Amberpet | Kuntloor | Nagole | Meerpet | Vanasthalipuram | Karmanghat | Nadergul </div>  </p>
                 
                     <button className="book-btn" onClick={() => openBooking()}>Book Now</button>
                 </div>

@@ -64,13 +64,14 @@ function NewPartner({ isOpen, closePartner }) {
               <div className="partner-price">
                 <span className="partner-mrp">₹2999</span>
                 <span className="partner-offer">₹499 🔥</span>
-                <span className="partner-tag">3 Months Subscription!</span>
+                <span className="partner-tag">6 Months Subscription!</span>
               </div>
               <form className="booking-form" onSubmit={handleSubmit}>
                 <input type="text" name="name" placeholder="Your Name" value={formData.name} onChange={handleChange} autoComplete="off" required />
                 <input type="tel" name="mobile" placeholder="Mobile Number (10 digits)" value={formData.mobile} onChange={handleChange} maxLength={10} autoComplete="off" required />
                 <input list="locations-list" name="location" placeholder="Select or Type Location" value={formData.location} onChange={handleChange} autoComplete="off" required />
                 <datalist id="locations-list">
+                  <option value="Bongloor Gate" />
                   <option value="LB Nagar" />
                   <option value="Malakpet" />
                   <option value="Dilsukhnagar" />

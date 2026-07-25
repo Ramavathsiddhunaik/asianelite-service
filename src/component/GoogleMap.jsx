@@ -27,7 +27,7 @@ const GoogleMap = () => {
       }}>
         <iframe
           title="AsianElite Home Cleaning Service - Service Areas"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243647.96425303538!2d78.24323134179688!3d17.412281450000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1585.6393192351857!2d78.58745745004033!3d17.232236654022174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sbongloor%20gate!5e0!3m2!1sen!2sin!4v1785005202036!5m2!1sen!2sin"
           width="100%"
           height="450"
           style={{ border: 0 }}
@@ -46,7 +46,7 @@ const GoogleMap = () => {
         margin: '24px auto 0'
       }}>
         {[
-          'Hyderabad', 'Secunderabad', 'Hayathnagar', 'Pedda Amberpet',
+          'Hyderabad', 'Secunderabad','Bongloor Gate', 'Hayathnagar', 'Pedda Amberpet',
           'Kuntloor', 'Nagole', 'Vanasthalipuram', 'Badangpet',
           'Balapur', 'Uppal', 'Boduppal', 'Medipalli',
           'Karmanghat', 'Meerpet', 'Nadergul', 'Malakpet'

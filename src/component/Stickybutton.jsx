@@ -13,14 +13,14 @@ function StickyButtons({ openBooking }) {
     emailjs.send(SERVICE_ID, TEMPLATE_ID, {
       name: 'A Customer',
       phone: 'Unknown',
-      service: 'Called Uncle 2 - +91 9177038969',
+      service: 'Called Uncle 2 - +91 9912298969',
       message: 'A customer clicked the Call button on the website.',
       reply_to: 'asianelitecleaning.hyd@gmail.com',
     }, PUBLIC_KEY);
 
     const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
     if (isMobile) {
-      window.location.href = 'tel:+919177038969';
+      window.location.href = 'tel:+919912298969';
     } else {
       setShowCallPopup(true);
     }
@@ -38,7 +38,7 @@ function StickyButtons({ openBooking }) {
   };
 
   const handleCopyNumber = () => {
-    navigator.clipboard.writeText('+919177038969');
+    navigator.clipboard.writeText('+919912298969');
     alert('✅ Number Copied!');
   };
 
@@ -65,7 +65,7 @@ function StickyButtons({ openBooking }) {
               You're one call away from a <strong>spotless home!</strong> 🏠✨
             </p>
             <div className="call-popup-number" onClick={handleCopyNumber}>
-              +91 9177038969
+              +91 9912298969
               <span className="copy-hint">📋 Tap to Copy</span>
             </div>
             <p className="call-popup-note">

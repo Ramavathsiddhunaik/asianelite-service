@@ -49,7 +49,7 @@ function Servicecard({ openBooking }){
 {
   id: 6,
   image : "/Servicecard/Singleroom.png",
-  name: "Single Bedroom Cleaning",
+  name: "Single Room Cleaning",
   description: " Your room holds your rest, your peace, your privacy — it deserves more than a quick wipe.\nWe go deep: every shelf, every corner, every surface you stopped noticing.\nOne room. Total focus. Walk in and feel the difference... ",
   
   Price : "1000",
@@ -87,7 +87,7 @@ function Servicecard({ openBooking }){
             <h2 className="servicecard-title" id="services"> Our Services</h2>
             <p className="servicecard-subtitle">✨ Book . We Clean . You Relax 🧼</p> 
             {Service.map((service) => (
-               <div className="servicecard-card" key={Service.id}>
+               <div className="servicecard-card" key={service.id}>
                 <img src={service.image} alt={service.name} className="servicecard-img"/>
 
                 <div className="servicecard-middle">

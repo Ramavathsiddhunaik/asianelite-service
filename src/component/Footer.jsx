@@ -17,14 +17,15 @@ function Footer() {
       <div className="footer-container">
         <div className="footer-left">
           <h3>AsianElite Service</h3>
-          <p>📞 +91 9177038969</p>
-          <p>💬 +91 7093040178</p>
+          <p>📞 <a href="tel:+919912298969">+91 9912298969</a></p>
+          <p>📞 <a href="tel:+917093040178">+91 7093040178</a></p>
         </div>
 
         <div className="footer-middle">
           <h3>Locations</h3>
           <p>Hyderabad</p>
           <p>Secunderabad</p>
+          <p>Bongloor Gate</p>
           <p>Hayathnagar</p>
           <p>Pedda Amberpet</p>
           <p>Kuntloor</p>

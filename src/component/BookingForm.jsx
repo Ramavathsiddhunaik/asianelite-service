@@ -103,6 +103,7 @@ localStorage.setItem('asianelite_bookings', JSON.stringify(existing));
                 <input type="tel" name="mobile" placeholder="Mobile Number (10 digits)" value={formData.mobile} onChange={handleChange} maxLength={10} autoComplete="off" required />
                 <input list="locations-list" name="location" placeholder="Select or Type Location" value={formData.location} onChange={handleChange} autoComplete="off" required />
                 <datalist id="locations-list">
+                  <option value="Bongloor Gate" />
                   <option value="LB Nagar" />
                   <option value="Hayathnagar" />
                   <option value="Pedda Amberpet" />
